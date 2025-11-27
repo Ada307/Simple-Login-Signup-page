@@ -1,12 +1,24 @@
-# React + Vite
+# Simple Login-Signup Page (React + Vite)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple Login / Signup UI built with **React** and **Vite**, created for practice.  
+This project includes routing, component structure, and basic form layout.
 
-Currently, two official plugins are available:
+Live demo: https://ada307.github.io/Simple-Login-Signup-page/
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
+- Login and Signup pages (React components)
+- Client-side routing with `react-router-dom`
+- Built with Vite for fast dev experience
+- Production build and auto-deploy using GitHub Actions → GitHub Pages
 
-## Expanding the ESLint configuration
+## Tech Stack
+- React 19
+- Vite
+- React Router
+- GitHub Actions (CI) → GitHub Pages (hosting)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Run locally
+1. Clone the repo and open the folder:
+```bash
+git clone https://github.com/Ada307/Simple-Login-Signup-page.git
+cd Simple-Login-Signup-page
